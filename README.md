@@ -1,4 +1,5 @@
-Comparing-Sort-Algorithms
+# Comparing-Sort-Algorithms
+
 This repository is focused on using a simple code in C++, implementing seven different sort algorithms to order an array.
 
 🚀 Rapid Use
