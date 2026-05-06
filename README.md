@@ -4,7 +4,7 @@ The respository is focused on use a simple code in C++, using seven different so
 <<Rapid use>>
 Using an online compiler or any other type (recommended C++11), copy and paste the main code inside the main file of the compiler.
 
-The script takes 3 entries, being numbers each one:
+The code takes 3 entries, being numbers each one:
 (Number of values) (Min Value) (Max Value)
 
 The code automatically will create an array with the number of values give it, then, this array will filled by numbers between Min and Max Values.
