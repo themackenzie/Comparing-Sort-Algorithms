@@ -19,6 +19,10 @@ The code will automatically:
 > [!IMPORTANT]
 > Every algorithm takes a different amount of steps and time because their best and worst cases are defined mathematically.
 
+
+> [!NOTE]
+> If you want to see all sorted arrays with every sorting algorithm, change in the file `#define show_sorted_array` betweem 0(no) and 1(yes)
+
 ---
 
 ## 📊 EXAMPLE 01
