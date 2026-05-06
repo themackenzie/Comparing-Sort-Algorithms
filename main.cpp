@@ -2,6 +2,7 @@
 #include <ctime>
 #include <iomanip>
 
+#define show_sorted_array 0
 
 using namespace std;
 
@@ -485,6 +486,8 @@ int main(){
     cout << endl << "Base Array Reference" << endl;
     f_printl ( regsb );
 
+    cout << endl << endl;
+
 
     int regst[val0 + 1];
 
@@ -504,6 +507,13 @@ int main(){
     reffs_t[reff] = cnt;
 
 
+    #if show_sorted_array == 1
+        cout << endl << reffs_n[reff] << " sorted array: " << endl;
+        f_printl ( regst );
+        cout << endl;
+    #endif
+
+
     reff++;
     //S.A. 02
     steps = 0;
@@ -517,6 +527,13 @@ int main(){
 
     reffs_s[reff] = steps;
     reffs_t[reff] = cnt;
+
+
+    #if show_sorted_array == 1
+        cout << endl << reffs_n[reff] << " sorted array: " << endl;
+        f_printl ( regst );
+        cout << endl;
+    #endif
 
 
     reff++;
@@ -533,6 +550,14 @@ int main(){
     reffs_s[reff] = steps;
     reffs_t[reff] = cnt;
 
+
+    #if show_sorted_array == 1
+        cout << endl << reffs_n[reff] << " sorted array: " << endl;
+        f_printl ( regst );
+        cout << endl;
+    #endif
+
+
     reff++;
     //S.A. 04
     steps = 0;
@@ -546,6 +571,13 @@ int main(){
 
     reffs_s[reff] = steps;
     reffs_t[reff] = cnt;
+
+
+    #if show_sorted_array == 1
+        cout << endl << reffs_n[reff] << " sorted array: " << endl;
+        f_printl ( regst );
+        cout << endl;
+    #endif
 
 
     reff++;
@@ -563,6 +595,13 @@ int main(){
     reffs_t[reff] = cnt;
 
 
+    #if show_sorted_array == 1
+        cout << endl << reffs_n[reff] << " sorted array: " << endl;
+        f_printl ( regst );
+        cout << endl;
+    #endif
+
+
     reff++;
     //S.A. 06
     steps = 0;
@@ -576,6 +615,13 @@ int main(){
 
     reffs_s[reff] = steps;
     reffs_t[reff] = cnt;
+
+
+    #if show_sorted_array == 1
+        cout << endl << reffs_n[reff] << " sorted array: " << endl;
+        f_printl ( regst );
+        cout << endl;
+    #endif
 
 
     reff++;
